@@ -1,0 +1,44 @@
+.headingname{
+    font-size: 60px;
+    width: 100%;
+   
+}
+.contentweb{
+  text-align: center;
+}
+.intro{
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-left: 3%;
+}
+.introh{
+    color: rgb(245, 147, 196);
+    font-size: 50px;
+}
+.introh:hover{
+    color: red;
+  background-color: white;
+    animation-name: introh1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes introh1{
+    from{
+        width: 0%;
+    }
+    to{
+        width:90%;
+    }
+}
+button{
+    width: 30%;
+    height: 150px;
+}
+.button1{
+   color: black;
+   background-color: white;
+    font-size: x-large;
+
+}

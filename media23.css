@@ -1,0 +1,34 @@
+@media(min-width: 932px){
+    .mmmlogo{
+        float: right;
+    }
+    .shivanshphoto{
+        width: 50%;
+        height: auto;
+    }
+    .robologo{
+        width:25%;
+    }
+    .mmmlogo{
+        width: 25%;
+    }
+}
+@media(max-width: 931px)
+{
+    .mmmlogo{
+        float:none;
+        margin-left: 25%;
+        margin-top: 50px;
+        width:85%;
+    }
+    .robologo{
+        margin-left: 25%;
+        margin-top: 30px;
+        width: 85%;
+    }
+    .shivanshphoto{
+        width: 50%;
+        height: auto;
+    }
+   
+}
